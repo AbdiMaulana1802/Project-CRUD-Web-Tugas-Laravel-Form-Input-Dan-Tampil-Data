@@ -64,11 +64,11 @@
                 <div class="btn btn-warning">: {{ $calonsiswa->nohp }}</div></div>
 
               <hr>
-              
+
               <a class="btn btn-success" href="{{ url("calonsiswa/$calonsiswa->id/edit") }}">Edit data</a>
 
               <a href="{{ url("hapussiswa/$calonsiswa->id ") }} " class="btn btn-danger">Hapus</a>
-             
+
               {{-- <td><a href="{{ url("hapussiswa/$itemSiswa->id") }}">Hapus</a></td> --}}
 {{--
               <form action="{{ $calonsiswa->id }}" method="POST">

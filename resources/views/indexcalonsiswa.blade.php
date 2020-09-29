@@ -30,12 +30,12 @@
         <div class="alert alert-danger">{{ session()->get('pesanhapus') }}</div>
 
         @endif
-        
-      
+
+
         </div>
         <a href="{{ route('calonsiswa.create') }}" class="btn btn-success">Tambah Data</a>
 
-       
+
         <table class="table table-bordered">
             <tr>
                     <td scope="col">No</td>
